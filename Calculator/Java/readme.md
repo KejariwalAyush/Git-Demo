@@ -1,0 +1,1 @@
+java is slower than c 😝😜😂
