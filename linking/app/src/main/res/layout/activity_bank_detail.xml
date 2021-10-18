@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BankDetail">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bg"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/Personal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="BANK DETAIL"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:textColor="#501E1E"
+            android:layout_marginTop="10dp"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_baseline_account_balance_24"
+            android:layout_below="@+id/Personal"
+            android:layout_centerInParent="true"
+            android:elevation="50dp"
+            android:backgroundTint="@color/white" />
+        />
+
+        <LinearLayout
+            android:id="@+id/detail"
+            android:layout_width="360dp"
+            android:layout_height="540dp"
+            android:layout_marginTop="83dp"
+            android:background="@drawable/borderlinear"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/bank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Name of Bank"
+                android:padding="10dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/branch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Branch"
+                android:padding="10dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Account No."
+                android:padding="10dp"
+                android:inputType="number"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/cifc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="cifc code"
+
+                android:padding="10dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/accname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Account holder's name"
+                android:padding="10dp"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            app:layout_constrainedHeight="true"
+            android:layout_below="@id/detail"
+            android:layout_centerInParent="true"
+            android:text="NEXT STEP"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:elevation="100dp"
+            android:onClick="display"
+            />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
