@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:background="@drawable/header"
+       android:id="@+id/header"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:weightSum="3">
+       <ImageView
+
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:background="@drawable/add"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_marginLeft="100dp"
+           android:layout_height="40dp"
+           android:text="Artbook"
+           android:fontFamily="cursive"
+           android:textSize="30sp"
+           />
+       <ImageView
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:layout_marginLeft="140dp"
+           android:background="@drawable/comnt"
+           />
+
+   </LinearLayout>
+    <HorizontalScrollView
+        android:id="@+id/stori"
+        android:layout_below="@id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayoutCompat
+            android:id="@+id/story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:fadeScrollbars="true"
+            android:scrollbarSize="0dp"
+            android:weightSum="3">
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/profi"
+                />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="70dp"
+                android:background="@drawable/profi"
+                />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="70dp"
+                android:background="@drawable/profi"/>
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="70dp"
+                android:background="@drawable/profi"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="70dp"
+                android:background="@drawable/profi"/>
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="70dp"
+                android:background="@drawable/profi"/>
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="70dp"
+                android:background="@drawable/profi"/>
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_marginLeft="4dp"
+                android:layout_height="70dp"
+                android:background="@drawable/profi"/>
+
+
+
+        </LinearLayoutCompat>
+    </HorizontalScrollView>
+    <ScrollView
+        android:layout_below="@+id/stori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:elevation="20dp"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/profi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="gourav_21"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="250dp"
+                    android:background="@drawable/option"/>
+
+
+            </LinearLayout>
+            <ImageView
+                android:elevation="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/mypotrait"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/heart"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/comnt" />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/share" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:elevation="20dp"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/profi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="gourav_21"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="250dp"
+                    android:background="@drawable/option"/>
+
+
+            </LinearLayout>
+            <ImageView
+                android:elevation="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:background="@drawable/mypotrait"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/heart"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/comnt" />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/share" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:elevation="20dp"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/profi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="gourav_21"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="250dp"
+                    android:background="@drawable/option"/>
+
+
+            </LinearLayout>
+            <ImageView
+                android:elevation="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:background="@drawable/mypotrait"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/heart"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/comnt" />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/share" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:elevation="20dp"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/profi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="gourav_21"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="250dp"
+                    android:background="@drawable/option"/>
+
+
+            </LinearLayout>
+            <ImageView
+                android:elevation="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:background="@drawable/mypotrait"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/heart"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/comnt" />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/share" />
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:background="@drawable/mypotrait"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/heart"/>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/comnt" />
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/share" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:background="@drawable/header"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="4">
+        <ImageView
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/home"
+
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/search"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/video"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/heart"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/profi"
+            />
+
+    </LinearLayoutCompat>
+
+
+</RelativeLayout>
